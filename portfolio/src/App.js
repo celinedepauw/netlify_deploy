@@ -1,15 +1,15 @@
-import logo from './logo.svg';
+import Header from '../src/components/Header';
+import Home from '../src/components/Home';
+import Footer from '../src/components/Footer';
+
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      {/*<header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        Bienvenue sur mon portfolio !
-        </p>
-      </header>*/}
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 }
