@@ -1,15 +1,15 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
         Bienvenue sur mon portfolio !
         </p>
-      </header>
+      </header>*/}
     </div>
   );
 }

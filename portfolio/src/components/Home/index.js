@@ -1,14 +1,19 @@
 import React from 'react';
+import Introduction from './Introduction';
+import WhoIAmSmall from './WhoIAmSmall';
+import SkillsSmall from './SkillsSmall';
+import ProjectsSmall from './ProjectsSmall';
+import Resume from './Resume';
 
 import './home.scss';
 
 const Home = () => (
         <div className="home">
-            <p>Introduction</p>
-            <p>Qui suis-je ?</p>
-            <p>Le match : hard skills vs soft skills</p>
-            <p>Mes projets web</p>
-            <p>Télécharger mon CV</p>
+            <Introduction />
+            <WhoIAmSmall />
+            <SkillsSmall />
+            <ProjectsSmall />
+            <Resume />
         </div>
 );
 
