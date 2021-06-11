@@ -1,13 +1,23 @@
 .footer {
-    color:hotpink;
+    width: 100%;
     position: fixed;
     bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    .footer_contact {
+      font-weight: bold;
+    }
 
     .footer_email {
-
+       
     }
-
+    
     .footer_linkedin {
-
+      color: white;
+      text-decoration: none;
     }
 }
+
+
