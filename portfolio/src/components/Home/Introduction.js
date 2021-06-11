@@ -2,10 +2,10 @@ import React from 'react';
 
 const Introduction = () => (
         <div className="introduction">
-           <h1 className="introduction_welcome">Bienvenue sur mon portfolio !</h1>
-           <div className="introduction_mood">
-                <p>Mon humeur du moment : </p>
-                <p>KEEP CALM AND FIND A JOB</p>
+           <h2 className="introduction_title">Bienvenue sur mon portfolio</h2>
+           <div className="introduction_aside">
+                <p className="introduction_mood">Mon humeur du moment : </p>
+                <p className="introduction_quote">Keep calm and find a job</p>
            </div>
            
         </div>

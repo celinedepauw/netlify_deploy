@@ -2,8 +2,8 @@ import React from 'react';
 
 const WhoIAmSmall = () => (
     <div className="whoIAmSmall">
-        <h2 className="whoIAmSmall_title">Qui suis-je ???</h2>
-        <p classname="whoIAmSmall_extract">Bla bla bla</p>
+        <h3 className="whoIAmSmall_title">Qui suis-je ???</h3>
+        <div classname="whoIAmSmall_extract">Bla bla bla</div>
   </div>
 );
 

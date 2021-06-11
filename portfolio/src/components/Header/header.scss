@@ -1,13 +1,14 @@
 .header {
     width: 100%;
-    color: blueviolet;
+    color: #6c5ce7;
+    text-shadow:  #5f27cd 1px 0 10px;
+    font-weight: bold;
     position: fixed;
     top: 0;
     background-color:black;
 
     .header_name {
         font-size: 2rem;
-        font-weight: bold;
     }
 
     .header_job {
