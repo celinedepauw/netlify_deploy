@@ -1,12 +1,12 @@
 import React from 'react';
 
 const SkillsSmall = () => (
-    <div className="skills">
-        <h2 className="skills_title">Le match : Hard skills vs Soft skills</h2>
-        <div className="skills_hardSkills">
+    <div className="skillsSmall">
+        <h2 className="skillsSmall_title">Le match : Hard skills vs Soft skills</h2>
+        <div className="skillsSmall_hardSkills">
             Hard skills
         </div>
-        <div className="skills_softSkills">
+        <div className="skillsSmall_softSkills">
             Soft skills
         </div>     
  </div>

@@ -4,8 +4,8 @@ import './footer.scss';
 
 const Footer = () => (
         <footer className="footer">
-            <p className="footer_email">celinedepauw2@gmail.com</p>
-            <p className="footer_linkedin">Icone lien LinkedIn</p>
+            <div className="footer_email">celinedepauw2@gmail.com</div>
+            <div className="footer_linkedin">Icone lien LinkedIn</div>
         </footer>
 );
 

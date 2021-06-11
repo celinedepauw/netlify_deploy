@@ -1,3 +1,54 @@
 .home {
-    color: green;
+   
+    .introduction {
+        color: green;
+
+        .introduction_name {
+
+        }
+
+        .introduction_mood {
+
+        }
+    }
+
+    .whoIAmSmall {
+        color: yellow;
+
+        .whoIAmSmall_title {
+
+        }
+
+        .whoIAmSmall_extract {
+
+        }
+    }
+
+    .skillsSmall {
+        color: cyan;
+        
+        .skillsSmall_title {
+
+        }
+
+        .skillsSmall_hardSkills {
+
+        }
+
+        .skillsSmall_softSkills {
+
+        }
+    }
+
+    .projectsSmall {
+        color: orange;
+
+        .projectsSmall_title {
+
+        }
+    }
+
+    .resume {
+        color: greenyellow;
+    }
 }
