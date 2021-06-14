@@ -4,13 +4,8 @@ import { Link } from 'react-router-dom';
 const ProjectsSmall = () => (
     <div className="projectsSmall">
         <h3 className="projectsSmall_title">Mes projets Web</h3>
-        <a href="https://github.com/celinedepauw" className="projectsSmall_github">Lien github</a>
-        <Link to="/projects" className="projectsSmall_all">
-            <div className="projectsSmall_one">O'Rando</div>
-            <div className="projectsSmall_one">Projet 2</div>
-            <div className="projectsSmall_one">Projet 3</div>
-            <div className="projectsSmall_one">Projet 4</div>
-        </Link>
+        <p className="projectsSmall_intro">J'ai commencé à coder en octobre 2020, mais j'ai déjà des choses à vous montrer !</p>
+        <p className="projectsSmall_link"><Link to="/projects">C'est par là</Link></p>
     </div>
 );
 
