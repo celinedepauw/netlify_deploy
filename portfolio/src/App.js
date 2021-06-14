@@ -1,5 +1,5 @@
 import Header from '../src/components/Header';
-import WhoIAm from '../src/components/WhoIAm';
+import Page from '../src/components/Page';
 import Footer from '../src/components/Footer';
 
 import './App.scss';
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <WhoIAm />
+      <Page />
       <Footer />
     </div>
   );
