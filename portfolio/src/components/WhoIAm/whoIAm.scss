@@ -1,0 +1,24 @@
+.whoIAm {
+    margin-top: 10rem;
+    margin-bottom: 7rem;
+    color: white;
+
+    .whoIAm_title {
+        text-align: center;
+    }
+
+    .whoIAm_section {
+        border: solid 1px white;
+        border-radius: 10px;
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+
+        .whoIAm_question {
+            color: #8c7ae6;
+        }
+
+        .whoIAM_answer {
+
+        }
+    }
+}
