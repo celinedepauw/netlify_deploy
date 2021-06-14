@@ -1,0 +1,17 @@
+.skills {
+    margin-top: 10rem;
+    margin-bottom: 7rem;
+    color: white;
+
+    .skills_return {
+        color: #8c7ae6;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+    
+    .skills_title {
+        text-align: center;
+    }
+}

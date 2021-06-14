@@ -3,6 +3,14 @@
     margin-bottom: 7rem;
     color: white;
 
+    .whoIAm_return {
+        color: #8c7ae6;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+
     .whoIAm_title {
         text-align: center;
     }

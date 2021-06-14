@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './whoIAm.scss';
 
 const WhoIAm = () => (
         <div className="whoIAm">
+          <Link to="/" className="whoIAm_return">Retour page accueil</Link>
           <h2 className="whoIAm_title">Qui suis-je ?</h2>          
           <div className="whoIAm_section">
             <p className="whoIAm_question">Sport préféré ?</p>
