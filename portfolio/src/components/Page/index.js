@@ -14,10 +14,10 @@ const Page = () => (
             <Route exact path="/qui_suis_je">
                 <WhoIAm />
             </Route>
-            <Route exact path="/skills">
+            <Route exact path="/competences">
                 <Skills />
             </Route>
-            <Route exact path="/projects">
+            <Route exact path="/projets">
                 <Projects />
             </Route>
             <Route exact path="/cv">
