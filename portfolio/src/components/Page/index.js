@@ -5,6 +5,8 @@ import Home from '../Home';
 import WhoIAm from '../WhoIAm';
 import Skills from '../Skills';
 import Projects from '../Projects';
+import Resume from '../Resume';
+
 
 const Page = () => (
     <div className="page">
@@ -17,6 +19,9 @@ const Page = () => (
             </Route>
             <Route exact path="/projects">
                 <Projects />
+            </Route>
+            <Route exact path="/cv">
+                <Resume />
             </Route>
             <Route exact path="/">
                 <Home />

@@ -3,7 +3,7 @@ import Introduction from './Introduction';
 import WhoIAmSmall from './WhoIAmSmall';
 import SkillsSmall from './SkillsSmall';
 import ProjectsSmall from './ProjectsSmall';
-import Resume from './Resume';
+import ResumeSmall from './ResumeSmall';
 
 import './home.scss';
 
@@ -13,7 +13,7 @@ const Home = () => (
             <WhoIAmSmall />
             <SkillsSmall />
             <ProjectsSmall />
-            <Resume />
+            <ResumeSmall />
         </div>
 );
 

@@ -1,0 +1,17 @@
+.resume {
+    color: white;
+    max-width: 800px;
+    margin: 10rem auto;
+
+    .resume_return {
+        color: #8c7ae6;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+
+    .resume_title {
+        text-align: center;
+    }
+}
