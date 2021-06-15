@@ -1,0 +1,47 @@
+.experience {
+    color: white;
+    max-width: 800px;
+    margin: 10rem auto;
+
+    .experience_return {
+        color: #8c7ae6;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+
+    .experience_title {
+        text-align: center;
+    }
+
+    .experience_section {
+        border: solid 4px #8c7ae6;
+        border-radius: 10px;
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+        background: linear-gradient(to top, #a29bfe, white);
+        color: black;
+
+        .experience_job {
+            color: #8c7ae6;
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        .experience_duration {
+            text-align: center;
+            font-style: italic;
+        }
+
+        .experience_enterprise {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .experience_details {
+            text-align: justify;
+        }
+    }
+}

@@ -26,6 +26,33 @@
         }
     }
 
+    .experienceSmall {
+        margin: 1rem auto;
+        padding: 0 1rem;
+        border: 4px solid #8c7ae6;
+        border-radius: 10px;
+        max-width: 800px;
+        background: linear-gradient(to top, #a29bfe, white);
+        padding-bottom: 1rem;
+
+        .experienceSmall_title {
+            text-align: center;
+            color: #8c7ae6;
+        }
+
+        .experienceSmall_intro {
+            
+        }
+
+        .experienceSmall_link {
+            text-align: right;
+
+            &:hover {
+                font-weight: bold;
+            }
+        }
+    }
+    
     .whoIAmSmall {
         margin: 1rem auto;
         padding: 0 1rem;
@@ -37,6 +64,7 @@
 
         .whoIAmSmall_title {
             text-align: center;
+            color: #8c7ae6;
         }
 
         .whoIAmSmall_intro {
@@ -63,6 +91,7 @@
         
         .skillsSmall_title {
             text-align: center;
+            color: #8c7ae6;
         }
 
         .skillsSmall_intro {
@@ -90,6 +119,7 @@
 
         .projectsSmall_title {
             text-align: center;
+            color: #8c7ae6;
         }
 
         .projectsSmall_intro {
@@ -117,6 +147,7 @@
 
         .resumeSmall_title {
             text-align: center;
+            color: #8c7ae6;
         }
 
         .resumeSmall_intro {
