@@ -6,11 +6,7 @@ import './whoIAm.scss';
 const WhoIAm = () => (
         <div className="whoIAm">
           <Link to="/" className="whoIAm_return">Retour page accueil</Link>
-          <h2 className="whoIAm_title">Qui suis-je ?</h2>
-          <div className="whoIAm_section">
-            <p className="whoIAm_question">Je faisais quoi avant ?</p>
-            <p className="whoIAm_answer">Responsable de magasin - Manager pendant 15 ans. Mais ça, c'était avant !</p>
-          </div>          
+          <h2 className="whoIAm_title">Bonus "Just For Fun"</h2>       
           <div className="whoIAm_section">
             <p className="whoIAm_question">Pourquoi avoir changé de métier ?</p>
             <p className="whoIAm_answer">Je m'ennuyais dans mon travail, j'avais besoin de plus de stimulation. J'ai choisi ce métier pour améliorer le quotidien des utilisateurs de logiciels dans le cadre de leur travail, et celui des utilisateurs de sites web.</p>

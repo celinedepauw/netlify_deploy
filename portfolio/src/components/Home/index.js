@@ -13,9 +13,9 @@ const Home = () => (
             <Introduction />
             <ExperienceSmall />
             <SkillsSmall />
-            <WhoIAmSmall />
             <ProjectsSmall />
             <ResumeSmall />
+            <WhoIAmSmall />
         </div>
 );
 
