@@ -1,7 +1,7 @@
 export const datas = [
     {
         title: "O'Rando",
-        subtitle: "React-Redux and PHP",
+        subtitle: "React-Redux & PHP",
         description: "lorem ipsum",
         image: "",
         link: "",
