@@ -16,23 +16,33 @@
     }
 
     .project {
-        border: 1px solid white;
+        border: 4px solid #8c7ae6;
+        border-radius: 10px;
         margin-bottom: 1rem;
-        padding: 1rem;
+        padding: 0 1rem;
+
+        .project_title {
+            text-align: center;
+            color: #8c7ae6;
+        }
+
+        .project_subtitle {
+                font-style: italic;
+                color: white;
+                text-align: center;
+        }
+
+        .project_description {
+
+        }
 
         .project_link {
+            text-align: right;
 
-            .project_title {
-
-            }
-
-            .project_subtitle {
-
-            }
-
-            .project_description {
-
+            &:hover {
+                font-weight: bold;
             }
         }
+        
     }
 }
