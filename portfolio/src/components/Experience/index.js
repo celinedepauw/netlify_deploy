@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import diploma from '../../assets/images/medaille.png';
 
 import './experience.scss';
 
@@ -8,6 +9,7 @@ const Experience = () => (
             <Link to="/" className="experience_return">Retour page accueil</Link>
             <h2 className="experience_title">Mon parcours</h2>
             <div className="experience_section">
+                <img src={diploma} alt="diplome" className="experience_diploma" />
                 <p className="experience_job">Titre Professionnel Développeur Web Web Mobile (Bac +2)</p>
                 <p className="experience_duration">Formation intensive de 6 mois</p>
                 <p className="experience_enterprise">Ecole O'clock</p>
@@ -50,6 +52,7 @@ const Experience = () => (
                 </p>
             </div>  
             <div className="experience_section">
+            <img src={diploma} alt="diplome" className="experience_diploma" />
                 <p className="experience_job">Diplôme d'Ingénieur en sciences et technologies des industries alimentaires</p>
                 <p className="experience_duration">3 ans</p>
                 <p className="experience_enterprise">Polytech Montpellier</p>
