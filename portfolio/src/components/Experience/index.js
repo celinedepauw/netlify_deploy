@@ -8,13 +8,13 @@ const Experience = () => (
             <Link to="/" className="experience_return">Retour page accueil</Link>
             <h2 className="experience_title">Mon parcours</h2>
             <div className="experience_section">
-                <p className="experience_job">Formation de Développeuse Web et Web mobile</p>
-                <p className="experience_duration">6 mois</p>
+                <p className="experience_job">Titre Professionnel Développeur Web Web Mobile (Bac +2)</p>
+                <p className="experience_duration">Formation intensive de 6 mois</p>
                 <p className="experience_enterprise">Ecole O'clock</p>
                 <p className="experience_details">La formation s'est déroulée en 3 temps :
                     <li>Les bases en HTML - CSS - JS - PHP - MySQL - Gestion de projet (3,5 mois)</li>
                     <li>La spécialisation en React et React-Redux (1 mois)</li>
-                    <li>Le projet en équipe (1 mois) : développement de A à Z du projet O'rando</li>
+                    <li>Le projet en équipe (1 mois) : développement de A à Z du projet O'rando <Link to="/projets" className="experience_link_orando">(voir le projet)</Link></li>
                 </p>
             </div>
             <div className="experience_section">
@@ -54,9 +54,9 @@ const Experience = () => (
                 <p className="experience_duration">3 ans</p>
                 <p className="experience_enterprise">Polytech Montpellier</p>
                 <p className="experience_details">3 stages réalisés durant mes études :
-                    <li>Optimisation d'une ligne de production - Ricard (6 mois)</li>
-                    <li>Mise en place d'un logiciel de Gestion de Production Assistée par Ordinateur - IES (1 mois)</li>
-                    <li>Optimisation d'une ligne de fabrication - Nougats Bremond (2 mois)</li>
+                    <li>2005 : Optimisation d'une ligne de production - Ricard (6 mois)</li>
+                    <li>2005 : Mise en place d'un logiciel de Gestion de Production Assistée par Ordinateur - IES (1 mois)</li>
+                    <li>2004 : Optimisation d'une ligne de fabrication - Nougats Bremond (2 mois)</li>
                 </p>
             </div>                 
         </div>

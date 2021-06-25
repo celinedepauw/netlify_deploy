@@ -42,6 +42,13 @@
 
         .experience_details {
             text-align: justify;
+
+            .experience_link_orando {
+
+                &:hover {
+                    font-weight: bold;
+                }
+            }
         }
     }
 }

@@ -1,5 +1,6 @@
 .header {
     width: 100%;
+    padding: 0.5rem;
     color: #8c7ae6;
     text-shadow:  #5f27cd 1px 0 10px;
     font-weight: bold;
@@ -7,12 +8,21 @@
     top: 0;
     background-color:#1F2937;
 
-    .header_name {
-        font-size: 2rem;
+    &:hover {
+        text-shadow:  black 1px 0 10px;
     }
 
-    .header_job {
-        font-size: 1.5rem;
-        font-style: italic;
+    .header_return_link {
+
+        .header_name {
+            font-size: 2rem;
+        }
+    
+        .header_job {
+            font-size: 1.5rem;
+            font-style: italic;
+        }
     }
 }
+
+
