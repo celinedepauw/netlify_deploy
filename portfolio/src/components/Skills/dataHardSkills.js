@@ -1,7 +1,7 @@
 export const datasHardSkills = [
     {
         name: "HTML5 / CSS3",
-        logo: "https://dyma.fr/assets/technos/htmlcss-logo-title.svg",
+        logo: "",
     },
     {
         name: "JS",

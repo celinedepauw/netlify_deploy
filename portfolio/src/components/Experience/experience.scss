@@ -2,7 +2,7 @@
     color: white;
     max-width: 800px;
     margin: 10rem auto;
-    margin-top: 13rem;
+    margin-top: 20rem;
     margin-bottom: 10rem;
 
     .experience_return {
@@ -53,12 +53,19 @@
         .experience_details {
             text-align: justify;
 
-            .experience_link_orando {
+            .experience_item {
+                list-style-type: none;
+                padding: 0.5rem 0;
 
-                &:hover {
-                    font-weight: bold;
+                .experience_link_orando {
+
+                    &:hover {
+                        font-weight: bold;
+                    }
                 }
+
             }
+           
         }
     }
 }

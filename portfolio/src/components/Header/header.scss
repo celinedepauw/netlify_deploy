@@ -13,6 +13,14 @@
     }
 
     .header_return_link {
+        display: flex;
+        flex-direction: column;
+
+        .header_picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
 
         .header_name {
             font-size: 2rem;

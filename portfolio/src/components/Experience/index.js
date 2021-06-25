@@ -13,10 +13,10 @@ const Experience = () => (
                 <p className="experience_job">Titre Professionnel Développeur Web Web Mobile (Bac +2)</p>
                 <p className="experience_duration">Formation intensive de 6 mois (2020 - 2021)</p>
                 <p className="experience_enterprise">Ecole O'clock</p>
-                <p className="experience_details">La formation s'est déroulée en 3 temps :
-                    <li>Les bases en HTML - CSS - JS - PHP - MySQL - Gestion de projet (3,5 mois)</li>
-                    <li>La spécialisation en React et React-Redux (1 mois)</li>
-                    <li>Le projet en équipe (1 mois) : développement de A à Z du projet O'rando <Link to="/projets" className="experience_link_orando">(voir le projet)</Link></li>
+                <p className="experience_details">
+                    <li className="experience_item">Bases en HTML - CSS - JS - PHP - MySQL - Gestion de projet (3,5 mois)</li>
+                    <li className="experience_item">Spécialisation en React et React-Redux (1 mois)</li>
+                    <li className="experience_item">Projet en équipe (1 mois) : développement de A à Z du projet O'rando <Link to="/projets" className="experience_link_orando">(voir le projet)</Link></li>
                 </p>
             </div>
             <div className="experience_section">
@@ -24,10 +24,10 @@ const Experience = () => (
                 <p className="experience_duration">6 ans (2014 - 2020)</p>
                 <p className="experience_enterprise">Grand Vision</p>
                 <p className="experience_details">
-                    <li>Développement du chiffre d'affaires</li>
-                    <li>Accompagnement d'une équipe de 10 personnes</li>
-                    <li>Analyse de la performance</li>
-                    <li>Pilotage de la satisfaction client</li>  
+                    <li className="experience_item">Développement du chiffre d'affaires</li>
+                    <li className="experience_item">Accompagnement d'une équipe de 10 personnes</li>
+                    <li className="experience_item">Analyse de la performance</li>
+                    <li className="experience_item">Pilotage de la satisfaction client</li>  
                 </p>
             </div>
             <div className="experience_section">
@@ -35,9 +35,9 @@ const Experience = () => (
                 <p className="experience_duration">3 ans (2011 - 2014)</p>
                 <p className="experience_enterprise">Sephora</p>
                 <p className="experience_details">
-                    <li>Animation d'une équipe de 20 personnes</li>
-                    <li>Gestion des flux financiers</li>
-                    <li>Gestion de l'audit</li>
+                    <li className="experience_item">Animation d'une équipe de 20 personnes</li>
+                    <li className="experience_item">Gestion des flux financiers</li>
+                    <li className="experience_item">Gestion de l'audit</li>
                 </p>
             </div>
             <div className="experience_section">
@@ -45,10 +45,10 @@ const Experience = () => (
                 <p className="experience_duration">6 ans (2005 - 2011)</p>
                 <p className="experience_enterprise">Auchan</p>
                 <p className="experience_details">
-                    <li>Gestion d'un compte d'exploitation</li>
-                    <li>Gestion d'une équipe de 15 personnes</li>
-                    <li>Négociation fournisseurs</li>
-                    <li>Gestion d'inventaires</li>
+                    <li className="experience_item">Gestion d'un compte d'exploitation</li>
+                    <li className="experience_item">Gestion d'une équipe de 15 personnes</li>
+                    <li className="experience_item">Négociation fournisseurs</li>
+                    <li className="experience_item">Gestion d'inventaires</li>
                 </p>
             </div>  
             <div className="experience_section">
@@ -56,10 +56,10 @@ const Experience = () => (
                 <p className="experience_job">Diplôme d'Ingénieur en sciences et technologies des industries alimentaires</p>
                 <p className="experience_duration">3 ans (2002 - 2005)</p>
                 <p className="experience_enterprise">Polytech Montpellier</p>
-                <p className="experience_details">3 stages réalisés durant ce cursus :
-                    <li>2005 : Optimisation d'une ligne de production - Ricard (6 mois)</li>
-                    <li>2005 : Mise en place d'un logiciel de Gestion de Production Assistée par Ordinateur - IES (1 mois)</li>
-                    <li>2004 : Optimisation d'une ligne de fabrication - Nougats Bremond (2 mois)</li>
+                <p className="experience_details">
+                    <li className="experience_item">2005 : Stage Optimisation d'une ligne de production - Ricard (6 mois)</li>
+                    <li className="experience_item">2005 : Stage Mise en place d'un logiciel de Gestion de Production Assistée par Ordinateur - IES (1 mois)</li>
+                    <li className="experience_item">2004 : Stage Optimisation d'une ligne de fabrication - Nougats Bremond (2 mois)</li>
                 </p>
             </div>                 
         </div>
