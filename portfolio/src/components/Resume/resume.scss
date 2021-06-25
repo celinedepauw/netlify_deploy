@@ -5,6 +5,9 @@
 
     .resume_return {
         color: #8c7ae6;
+        border: solid 2px #8c7ae6;
+        border-radius: 10px;
+        padding: 0.2rem;
 
         &:hover {
             font-weight: bold;
