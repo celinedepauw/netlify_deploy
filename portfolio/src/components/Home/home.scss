@@ -38,6 +38,19 @@
         .experienceSmall_title {
             text-align: center;
             color: #8c7ae6;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            .experienceSmall_title_text {
+                margin-right: 1rem;
+            }
+
+            .experienceSmall_title_picture {
+                width: 40px;
+                height: 40px;
+            }
         }
 
         .experienceSmall_intro {
@@ -65,6 +78,19 @@
         .whoIAmSmall_title {
             text-align: center;
             color: #8c7ae6;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            .whoIAmSmall_title_text {
+                margin-right: 1rem;
+            }
+
+            .whoIAmSmall_title_picture {
+                width: 40px;
+                height: 40px;
+            }
         }
 
         .whoIAmSmall_intro {
@@ -92,6 +118,19 @@
         .skillsSmall_title {
             text-align: center;
             color: #8c7ae6;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            .skillsSmall_title_text {
+                margin-right: 1rem;
+            }
+
+            .skillsSmall_title_picture {
+                width: 40px;
+                height: 40px;
+            }
         }
 
         .skillsSmall_intro {
@@ -120,6 +159,19 @@
         .projectsSmall_title {
             text-align: center;
             color: #8c7ae6;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            .projectsSmall_title_text {
+                margin-right: 1rem;
+            }
+
+            .projectsSmall_title_picture {
+                width: 40px;
+                height: 40px;
+            }
         }
 
         .projectsSmall_intro {
@@ -144,10 +196,22 @@
         border-radius: 10px;
         background: linear-gradient(to top, #a29bfe, white);
      
-
         .resumeSmall_title {
             text-align: center;
             color: #8c7ae6;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            .resumeSmall_title_text {
+                margin-right: 1rem;
+            }
+
+            .resumeSmall_title_picture {
+                width: 40px;
+                height: 40px;
+            }
         }
 
         .resumeSmall_intro {
