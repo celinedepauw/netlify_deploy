@@ -9,6 +9,10 @@ const Experience = () => (
             <Link to="/" className="experience_return">Retour page accueil</Link>
             <h2 className="experience_title">Mon parcours</h2>
             <div className="experience_section">
+                <p className="experience_details">Après avoir travaillé pendant 15 ans dans le commerce en tant que manager et responsable de magasin, j'ai choisi de me lancer un nouveau challenge : celui de devenir Développeuse Web !</p>
+                <p className="experience_details">Aujourd'hui, je cherche une entreprise qui m'offrira l'opportunité de continuer d'apprendre ce métier aux multiples possibilités. Je suis prête à relever les défis que l'on voudra bien me lancer, et promis, je donnerai le meilleur de moi-même !</p>
+            </div>
+            <div className="experience_section">
                 <img src={diploma} alt="diplome" className="experience_diploma" />
                 <p className="experience_job">Titre Professionnel Développeur Web Web Mobile (Bac +2)</p>
                 <p className="experience_duration">Formation intensive de 6 mois (2020 - 2021)</p>
