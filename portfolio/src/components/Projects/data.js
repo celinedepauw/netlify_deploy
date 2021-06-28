@@ -13,18 +13,4 @@ export const datas = [
         image: "ert",
         link: "",
     },
-    {
-        title: "Projet A",
-        subtitle: "React",
-        description: "lorem ipsum",
-        image: "resgeg",
-        link: "",
-    },
-    {
-        title: "Projet B",
-        subtitle: "React",
-        description: "lorem ipsum",
-        image: "jgkjtyutre",
-        link: "",
-    },
 ];

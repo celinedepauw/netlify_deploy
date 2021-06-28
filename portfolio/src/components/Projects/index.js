@@ -11,7 +11,7 @@ const Projects = () => (
             {datas.map((project) => (
                 <div
                     className="project"
-                    key={project.image}
+                    key={project.title}
                 >
                     <h3 className="project_title">{project.title}</h3>
                     <p className="project_subtitle">{project.subtitle}</p>
