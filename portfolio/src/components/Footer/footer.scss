@@ -5,10 +5,7 @@
     background-color: #1F2937;
     color: #a29bfe;
     text-align: center;
-    
-    .footer_contact {
-      font-weight: bold;
-    }
+    padding-top: 0.5rem;
 
     .footer_email {
        display: flex;
@@ -27,11 +24,23 @@
     }
     
     .footer_linkedin_link {
-      
+      margin-right: 1rem;
+
       .footer_linkedin_logo {
         margin-top: 0.5rem;
         width: 40px;
         height: 40px;
+      } 
+    }
+
+    .footer_github_link {
+      
+      .footer_github_logo {
+        margin-top: 0.5rem;
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 5px;
       } 
     }
 }
