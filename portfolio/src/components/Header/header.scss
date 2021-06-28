@@ -12,25 +12,21 @@
     background-color:$darkColor;
 
     &:hover {
-        text-shadow:  $darkColor 1px 0 10px;
+        text-shadow: $darkColor 1px 0 10px;
     }
 
     .header_return_link {
         display: flex;
         flex-direction: column;
 
-        .header_picture {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-        }
-
         .header_name {
             font-size: 2rem;
+            margin: 0;
 
-            .header_logo {
+            .header_picture {
                 width: 40px;
                 height: 40px;
+                border-radius: 50%;
             }
         }
     
