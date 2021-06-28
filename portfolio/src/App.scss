@@ -1,4 +1,6 @@
+@import 'src/styles/vars';
+
 a {
     text-decoration: none;
-    color: #8c7ae6
+    color: $regularColor;
 }

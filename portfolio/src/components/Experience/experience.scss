@@ -1,3 +1,5 @@
+@import 'src/styles/vars';
+
 .experience {
     color: white;
     max-width: 800px;
@@ -6,8 +8,8 @@
     margin-bottom: 10rem;
 
     .experience_return {
-        color: #8c7ae6;
-        border: solid 2px #8c7ae6;
+        color: $regularColor;
+        border: solid 2px $regularColor;
         border-radius: 10px;
         padding: 0.2rem;
 
@@ -21,11 +23,11 @@
     }
 
     .experience_section {
-        border: solid 4px #8c7ae6;
+        border: solid 4px $regularColor;
         border-radius: 10px;
         padding: 0 1rem;
         margin-bottom: 1rem;
-        background: linear-gradient(to top, #a29bfe, white);
+        background: linear-gradient(to top, $lightColor, white);
         color: #1F2937;
 
         .experience_diploma {
@@ -34,7 +36,7 @@
             height: 40px;
         }
         .experience_job {
-            color: #8c7ae6;
+            color: $regularColor;
             font-weight: bold;
             text-align: center;
             font-size: 1.2rem;
