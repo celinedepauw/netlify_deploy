@@ -1,6 +1,6 @@
 export const datas = [
     {
-        title: "O'Rando",
+        title: "Orando",
         subtitle: "React-Redux & PHP",
         description: "Site web responsive dédiée à la randonnée, développé de A à Z au sein d'une équipe de 5 développeurs. Je faisais partie de l'équipe front-end. Les principales fonctionnalités sont : consultation d'une randonnée, création et modification de profil, création et modification d'une randonnée, participation à une randonnée, contact d'un organisateur, consultation des participants à une randonnée...",
         image: "thhhhh",

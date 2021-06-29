@@ -6,6 +6,8 @@ import Experience from '../Experience';
 import Skills from '../Skills';
 import WhoIAm from '../WhoIAm';
 import Projects from '../Projects';
+import Movies from '../Movies';
+import Orando from '../Orando';
 import Resume from '../Resume';
 
 
@@ -23,6 +25,12 @@ const Page = () => (
             </Route>
             <Route exact path="/projets">
                 <Projects />
+            </Route>
+            <Route exact path="/projet_Orando">
+                <Orando />
+            </Route>
+            <Route exact path="/projet_Movies">
+                <Movies />
             </Route>
             <Route exact path="/cv">
                 <Resume />
