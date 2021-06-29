@@ -10,6 +10,7 @@ const Movies = () => (
             <Link to="/projets" className="movies_return">Retour page projets</Link>
             <h2 className="movies_title">Projet Movies</h2>
             <video controls src={movies} className="movies_video">Vidéo de présentation du site Movies</video>
+            <p className="movies_description">(durée : 1 minute)</p>
         </div>
 );
 
