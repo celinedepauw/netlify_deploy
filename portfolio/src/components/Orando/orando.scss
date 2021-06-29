@@ -23,6 +23,10 @@
     }
 
     .orando_video {
-
+        width: 100%;
+        max-width: 780px;
+        border: 4px solid $regularColor;
+        border-radius: 10px;
+        background-color: $darkColor;
     }
 }
