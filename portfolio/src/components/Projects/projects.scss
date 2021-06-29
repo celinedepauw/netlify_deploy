@@ -31,8 +31,20 @@
         color: $darkColor;
 
         .project_title {
-            text-align: center;
             color: $regularColor;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+
+            .project_title_text {
+                margin-right: 0.5rem;
+            }
+
+            .project_title_icon {
+                width: 40px;
+                height: 40px;
+            }
         }
 
         .project_subtitle {
