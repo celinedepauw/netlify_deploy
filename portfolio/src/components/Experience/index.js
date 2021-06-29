@@ -20,7 +20,7 @@ const Experience = () => (
                 <p className="experience_details">
                     <li className="experience_item">Bases en HTML - CSS - JS - PHP - MySQL - Gestion de projet (3,5 mois)</li>
                     <li className="experience_item">Spécialisation en React et React-Redux (1 mois)</li>
-                    <li className="experience_item">Projet en équipe (1 mois) : développement de A à Z du projet O'rando <Link to="/projets" className="experience_link_orando">(voir le projet)</Link></li>
+                    <li className="experience_item">Projet en équipe (1 mois) : développement de A à Z du projet O'rando <Link to="/projet_Orando" className="experience_link_orando">(voir le projet)</Link></li>
                 </p>
             </div>
             <div className="experience_section">

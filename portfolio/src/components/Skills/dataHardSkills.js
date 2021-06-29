@@ -1,11 +1,11 @@
 export const datasHardSkills = [
     {
         name: "HTML5",
-        logo: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748__340.png",
+        logo: "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/html5-128.png",
     },
     {
         name: "CSS3",
-        logo: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
+        logo: "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-128.png",
     },
     {
         name: "Javascript",
@@ -13,15 +13,15 @@ export const datasHardSkills = [
     },
     {
         name: "React",
-        logo: "http://assets.stickpng.com/thumbs/584830f5cef1014c0b5e4aa1.png",
+        logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
     },
     {
         name: "Redux",
-        logo: "http://assets.stickpng.com/thumbs/5848309bcef1014c0b5e4a9a.png",
+        logo: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
     },
     {
         name: "Sass",
-        logo: "https://image.flaticon.com/icons/png/512/919/919831.png",
+        logo: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/288_Sass_logo-128.png",
     },
     {
         name: "Bootstrap",
@@ -29,10 +29,10 @@ export const datasHardSkills = [
     },
     {
         name: "PHP",
-        logo: "http://assets.stickpng.com/thumbs/58481791cef1014c0b5e4994.png",
+        logo: "https://cdn4.iconfinder.com/data/icons/logos-3/568/php-logo-256.png",
     },
     {
         name: "MySql",
-        logo: "http://assets.stickpng.com/thumbs/58481057cef1014c0b5e4951.png",
+        logo: "https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png",
     },
 ];
