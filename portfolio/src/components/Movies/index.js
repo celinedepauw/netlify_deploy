@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import movies from '../../assets/demos/demo_movies.mp4';
+
 import './movies.scss';
 
 const Movies = () => (
         <div className="movies">
-            <Link to="/" className="movies_return">Retour page accueil</Link>
+            <Link to="/projets" className="movies_return">Retour page projets</Link>
             <h2 className="movies_title">Projet Movies</h2>
-            <div className="movies_video">
-                Démonstration du site Movies
-            </div>
+            <video controls src={movies} className="movies_video">Vidéo de présentation du site Movies</video>
         </div>
 );
 
