@@ -9,7 +9,7 @@ const Footer = () => (
         <footer className="footer">
             <div className="footer_email">
                 <img src={email} className="footer_email_picture" />
-                <div className="footer_email_text">celinedepauw2@gmail.com</div>
+                <a href="mailto:celinedepauw2@gmail.com" className="footer_email_text">celinedepauw2@gmail.com</a>
             </div>
             <a href="https://www.linkedin.com/in/celinedepauw/" target="_blank" className="footer_linkedin_link"><img src={linkedin} className="footer_linkedin_logo" /></a>
             <a href="https://github.com/celinedepauw" target="_blank" className="footer_github_link"><img src={github} className="footer_github_logo" /></a>
