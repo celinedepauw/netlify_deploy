@@ -9,6 +9,7 @@ import Projects from '../Projects';
 import Movies from '../Movies';
 import Orando from '../Orando';
 import Resume from '../Resume';
+import Error from '../Error';
 
 
 const Page = () => (
@@ -34,9 +35,12 @@ const Page = () => (
             </Route>
             <Route exact path="/cv">
                 <Resume />
-            </Route>
+            </Route>        
             <Route exact path="/">
                 <Home />
+            </Route>
+            <Route>
+                <Error />
             </Route>
         </Switch>
     </div>

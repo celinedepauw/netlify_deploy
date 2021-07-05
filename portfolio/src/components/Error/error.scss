@@ -1,0 +1,31 @@
+@import 'src/styles/vars';
+
+.error {
+    color: white;
+    max-width: 800px;
+    margin: 10rem auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    
+    .error_return {
+        color: $regularColor;
+        border: solid 2px $regularColor;
+        border-radius: 10px;
+        padding: 0.2rem;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+
+    .error_title {
+        color: white;
+        text-align: center;
+        text-align: center;
+    }
+
+    .error_text {
+        color: white;
+        text-align: center;
+    }
+}
