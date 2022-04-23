@@ -10,7 +10,16 @@ const Experience = () => (
             <h2 className="experience_title">Mon parcours</h2>
             <div className="experience_section">
                 <p className="experience_details">Après avoir travaillé pendant 15 ans dans le commerce en tant que manager et responsable de magasin, j'ai choisi de me lancer un nouveau challenge : celui de devenir Développeuse Web !</p>
-                <p className="experience_details">Aujourd'hui, je cherche une entreprise qui m'offrira l'opportunité de continuer d'apprendre ce métier aux multiples possibilités. Je suis prête à relever les défis que l'on voudra bien me lancer, et promis, je donnerai le meilleur de moi-même !</p>
+                <p className="experience_details">Aujourd'hui, je suis à l'écoute du marché. Si vous pensez pouvoir m'offrir l'opportunité qui me fera continuer de progresser, discutons-en ! Je suis prête à relever les défis que l'on voudra bien me lancer, et promis, je donnerai le meilleur de moi-même !</p>
+            </div>
+            <div className="experience_section">
+                <p className="experience_job">Développeuse Web Front-end Angular</p>
+                <p className="experience_duration">Depuis Septembre 2021</p>
+                <p className="experience_enterprise">Dev-id</p>
+                <p className="experience_details">
+                    <li className="experience_item">Développement de sites web : Angular - Akita - RxJS</li>
+                    <li className="experience_item">Développement d'applications Android : Kotlin</li>
+                </p>
             </div>
             <div className="experience_section">
                 <img src={diploma} alt="diplome" className="experience_diploma" />
@@ -57,7 +66,7 @@ const Experience = () => (
             </div>  
             <div className="experience_section">
             <img src={diploma} alt="diplome" className="experience_diploma" />
-                <p className="experience_job">Diplôme d'Ingénieur en sciences et technologies des industries alimentaires</p>
+                <p className="experience_job">Diplôme d'Ingénieur en Sciences et Technologies des Industries Alimentaires</p>
                 <p className="experience_duration">3 ans (2002 - 2005)</p>
                 <p className="experience_enterprise">Polytech Montpellier</p>
                 <p className="experience_details">

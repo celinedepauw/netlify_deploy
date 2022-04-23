@@ -11,6 +11,7 @@ const Skills = () => (
             <h2 className="skills_title">Le match : Hard skills vs Soft skills</h2>
             <div className="hardSkills">
                 <h3 className="hardSkills_title">Mes compétences techniques</h3>
+                <div className="hardSkills_list">
                 {datasHardSkills.map((hardSkill) =>(
                     <div className="hardSkill">
                         <li
@@ -19,11 +20,13 @@ const Skills = () => (
                         </li>
                         <img src={hardSkill.logo} className="hardSkill_logo" />
                     </div>
-                   
                 ))}
+                </div>
+                
             </div>
             <div className="softSkills">
                 <h3 className="softSkills_title">Mon savoir-être </h3>
+                <div className="softSkills_list">
                 {datasSoftSkills.map((softSkill) =>(
                     <div className="softSkill">
                         <li 
@@ -33,6 +36,7 @@ const Skills = () => (
                         <img src={softSkill.logo} className="softSkill_logo" />
                     </div>
                 ))}
+                </div>
             </div>
         </div>
 );

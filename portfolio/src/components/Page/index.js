@@ -10,6 +10,9 @@ import Movies from '../Movies';
 import Orando from '../Orando';
 import Resume from '../Resume';
 import Error from '../Error';
+import Beautyfull from '../Beautyfull';
+import SearchMovie from '../SearchMovie';
+import Homies from '../Homies';
 
 
 const Page = () => (
@@ -32,6 +35,15 @@ const Page = () => (
             </Route>
             <Route exact path="/projet_Movies">
                 <Movies />
+            </Route>
+            <Route exact path="/projet_Beautyfull">
+                <Beautyfull />
+            </Route>
+            <Route exact path="/projet_SearchMovie">
+                <SearchMovie />
+            </Route>
+            <Route exact path="/projet_Homies">
+                <Homies />
             </Route>
             <Route exact path="/cv">
                 <Resume />

@@ -12,6 +12,14 @@ export const datasHardSkills = [
         logo: "https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png",
     },
     {
+        name: "Angular",
+        logo: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/21_Angular_logo_logos-128.png",
+    },
+    {
+        name: "Typescript",
+        logo: "https://img.icons8.com/color/2x/typescript.png",
+    },
+    {
         name: "React",
         logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
     },
@@ -22,10 +30,14 @@ export const datasHardSkills = [
     {
         name: "Sass",
         logo: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/288_Sass_logo-128.png",
+    },  
+    {
+        name: "Kotlin",
+        logo: "https://img.icons8.com/color/344/kotlin.png",
     },
     {
-        name: "Bootstrap",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png",
+        name: "Java",
+        logo: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-128.png",
     },
     {
         name: "PHP",

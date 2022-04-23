@@ -19,6 +19,7 @@ const Projects = () => (
                     </div>
                     <p className="project_subtitle">{project.subtitle}</p>
                     <p className="project_description">{project.description}</p>
+                    <p className="project_date">{project.date}</p>
                     <p className="project_link"><Link to={`/projet_${project.title}`}>Voir le projet</Link></p>
                 </div>
             ))}

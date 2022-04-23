@@ -1,0 +1,50 @@
+@import 'src/styles/vars';
+
+.beautyfull {
+    color: white;
+    max-width: 800px;
+    margin: 10rem auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+    .beautyfull_return {
+        color: $regularColor;
+        border: solid 2px $regularColor;
+        border-radius: 10px;
+        padding: 0.2rem;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+
+    .beautyfull_title {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        
+        .beautyfull_text {
+            text-align: center;
+            padding-right: 1rem;
+        }
+
+        .beautyfull_logo {
+            width: 60px;
+        }
+        
+    }
+
+    
+
+    .beautyfull_video {
+        width: 100%;
+        max-width: 780px;
+        border: 4px solid $regularColor;
+        border-radius: 10px;
+        background-color: $darkColor;
+    }
+
+    .beautyfull_description {
+        text-align: justify;
+    }
+}

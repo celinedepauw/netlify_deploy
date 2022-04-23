@@ -1,30 +1,30 @@
 export const datasSoftSkills = [
     {
         name: "Travail d'équipe",
-        logo: "https://image.flaticon.com/icons/png/512/1239/1239719.png",
+        logo: "https://cdn-icons-png.flaticon.com/128/1283/1283218.png",
     },
     {
         name: "Adaptabilité",
-        logo: "https://image.flaticon.com/icons/png/512/4394/4394598.png",
+        logo: "https://cdn-icons-png.flaticon.com/128/2752/2752467.png",
     },
     {
         name: "Curiosité",
-        logo: "https://image.flaticon.com/icons/png/512/3409/3409564.png",
+        logo: "https://cdn-icons-png.flaticon.com/128/4585/4585720.png",
     },
     {
         name: "Réactivité",
-        logo: "https://image.flaticon.com/icons/png/512/2255/2255206.png",
+        logo: "https://cdn-icons-png.flaticon.com/128/2861/2861385.png",
     },
     {
         name: "Autonomie",
-        logo: "https://image.flaticon.com/icons/png/512/1477/1477177.png",
+        logo: "https://cdn-icons-png.flaticon.com/128/5845/5845561.png",
     },
     {
         name: "Gestion des priorités",
-        logo: "https://image.flaticon.com/icons/png/512/3176/3176292.png",
+        logo: "https://cdn-icons-png.flaticon.com/128/4388/4388232.png",
     },
     {
         name: "Management",
-        logo: "https://image.flaticon.com/icons/png/512/1534/1534938.png",
+        logo: "https://cdn-icons-png.flaticon.com/128/6799/6799020.png",
     },
 ];
