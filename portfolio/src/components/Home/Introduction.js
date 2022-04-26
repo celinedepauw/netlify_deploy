@@ -5,7 +5,7 @@ const Introduction = () => (
            <h2 className="introduction_title">Bienvenue sur mon portfolio</h2>
            <div className="introduction_aside">
                 <p className="introduction_mood">Mon humeur du moment : </p>
-                <p className="introduction_quote">Keep calm and find a job</p>
+                <p className="introduction_quote">Keep learning</p>
            </div>
            
         </div>

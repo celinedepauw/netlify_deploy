@@ -3,7 +3,7 @@ export const datas = [
         title: "Beautyfull",
         subtitle: "Angular & Material",
         description: "Site web développé en mobile first pour gérer mes produits de beauté.", 
-        image: "https://cdn-icons.flaticon.com/png/128/5923/premium/5923338.png?token=exp=1650717688~hmac=4b6dd75a5126caa476cec5178a3c7597",
+        image: "https://cdn-icons-png.flaticon.com/128/5220/5220410.png",
         date: "Février 2022",
     },
     {

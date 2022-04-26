@@ -13,7 +13,7 @@ const WhoIAm = () => (
           </div>
           <div className="whoIAm_section">
             <p className="whoIAm_question">Mon sport préféré ?</p>
-            <p className="whoIAm_answer">Le hand-ball, c'est le sport que j'ai préféré pratiquer (pendant 7 ans), au poste d'ailier droit. Oui, j'aimais bien attaquer et marquer des buts !</p>
+            <p className="whoIAm_answer">Le hand-ball, c'est le sport que j'ai préféré pratiquer (pendant 7 ans), au poste d'ailier gauche. Oui, j'aimais bien attaquer et marquer des buts !</p>
           </div>
           <div className="whoIAm_section">
             <p className="whoIAm_question">Un jeu de société préféré ?</p>

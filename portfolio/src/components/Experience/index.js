@@ -9,7 +9,8 @@ const Experience = () => (
             <Link to="/" className="experience_return">Retour page accueil</Link>
             <h2 className="experience_title">Mon parcours</h2>
             <div className="experience_section">
-                <p className="experience_details">Après avoir travaillé pendant 15 ans dans le commerce en tant que manager et responsable de magasin, j'ai choisi de me lancer un nouveau challenge : celui de devenir Développeuse Web !</p>
+                <p className="experience_details">Après 15 ans passés dans le commerce et la distribution, à manager et accompagner des équipes dans la recherche de la performance et de la satisfaction client, j’ai choisi de donner un nouvel élan à ma carrière et de relever un nouveau défi : celui de devenir Développeuse Web !</p>
+                <p className="experience_details">Je suis curieuse et m’intéresse à beaucoup de choses, ce qui m’a permis de travailler dans plusieurs univers très différents et de m’y adapter facilement et rapidement à chaque fois. J’aime échanger et travailler en équipe sur un projet commun, car je fais partie de ceux qui pensent que « seul on va plus vite, ensemble on va plus loin ».</p>
                 <p className="experience_details">Aujourd'hui, je suis à l'écoute du marché. Si vous pensez pouvoir m'offrir l'opportunité qui me fera continuer de progresser, discutons-en ! Je suis prête à relever les défis que l'on voudra bien me lancer, et promis, je donnerai le meilleur de moi-même !</p>
             </div>
             <div className="experience_section">

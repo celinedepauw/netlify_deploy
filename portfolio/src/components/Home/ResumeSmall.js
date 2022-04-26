@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import resume from '../../assets/images/resume.svg';
-import curriculum from '../../assets/docs/cv.pdf';
+import curriculum from '../../assets/docs/CV_depauw.pdf';
 
 const ResumeSmall = () => (
     <div className="resumeSmall">
