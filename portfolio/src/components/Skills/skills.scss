@@ -3,7 +3,6 @@
 .skills {
     max-width: 800px;
     margin: 10rem auto;
-    color: white;
     margin-top: 10rem;
     margin-bottom: 10rem;
 
@@ -11,7 +10,7 @@
         color: $regularColor;
         border: solid 2px $regularColor;
         border-radius: 10px;
-        padding: 0.2rem;
+        padding: 0.2rem 0.5rem;
 
         &:hover {
             font-weight: bold;
@@ -20,6 +19,12 @@
     
     .skills_title {
         text-align: center;
+        color: white;
+    }
+
+    h3 {
+        text-align: center;
+        color: white;
     }
 
     .hardSkills {
@@ -100,7 +105,66 @@
                 }
             }
         }
+    }
+    .languages {
+        color: $lightColor;
+        border: 4px solid $regularColor;
+        border-radius: 10px;
+        background: linear-gradient(to top, $lightColor, white);
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+        
+        .languages_title {
+            text-align: center;
+            color: $regularColor;
+            padding: 0.2rem;
+        }
 
+        .languages_list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .language {
+                margin: 1rem;
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+    
+                .language_name {
+                    color: $darkColor;
+                    list-style-type: none;
+
+                    span {
+                        font-style: italic;
+                        font-size: 0.8rem;
+                    }
+                }
+    
+                .language_logo {
+                    width: 50px;
+                    height: 50px;
+                    padding-left: 1rem;
+                }
+            }
+        }
+    }
+    .potencial {
+        border: 4px solid $regularColor;
+        border-radius: 10px;
+        background: linear-gradient(to top, $lightColor, white);
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+        
+        .potencial_title {
+            text-align: center;
+            color: $regularColor;
+            padding: 0.2rem;
+        }
+
+        .potencial-text {
+            color: black;
+        }
         
     }
 }

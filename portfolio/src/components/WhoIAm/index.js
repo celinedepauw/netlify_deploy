@@ -8,10 +8,6 @@ const WhoIAm = () => (
           <Link to="/" className="whoIAm_return">Retour page accueil</Link>
           <h2 className="whoIAm_title">Bonus "Just For Fun"</h2>       
           <div className="whoIAm_section">
-            <p className="whoIAm_question">Pourquoi avoir changé de métier ?</p>
-            <p className="whoIAm_answer">Je m'ennuyais dans mon travail, j'avais besoin de plus de stimulation. J'ai choisi ce métier pour améliorer le quotidien des utilisateurs de logiciels dans le cadre de leur travail, et celui des utilisateurs de sites web.</p>
-          </div>
-          <div className="whoIAm_section">
             <p className="whoIAm_question">Mon sport préféré ?</p>
             <p className="whoIAm_answer">Le hand-ball, c'est le sport que j'ai préféré pratiquer (pendant 7 ans), au poste d'ailier gauche. Oui, j'aimais bien attaquer et marquer des buts !</p>
           </div>
@@ -24,11 +20,15 @@ const WhoIAm = () => (
             <p className="whoIAm_answer">J'aime sortir me balader, découvrir de nouvelles activités, et j'adore voyager.</p>
           </div>
           <div className="whoIAm_section">
+            <p className="whoIAm_question">Le type de livres que j'adore ?</p>
+            <p className="whoIAm_answer">Les thrillers, surtout ceux qui se lisent à la vitesse de la lumière ! J'aime les rebondissements et être surprise à la fin.</p>
+          </div>
+          <div className="whoIAm_section">
             <p className="whoIAm_question">Si j'avais un super pouvoir ?</p>
             <p className="whoIAm_answer">Le don d'ubiquité pour continuer de découvrir le monde !</p>
           </div>
           <div className="whoIAm_section">
-            <p className="whoIAm_question">Passé, Présent ou futur ?</p>
+            <p className="whoIAm_question">Passé, Présent ou Futur ?</p>
             <p className="whoIAm_answer">Présent ! Ma devise : Carpe Diem.</p>
           </div>
           <div className="whoIAm_section">

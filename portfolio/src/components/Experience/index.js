@@ -9,13 +9,26 @@ const Experience = () => (
             <Link to="/" className="experience_return">Retour page accueil</Link>
             <h2 className="experience_title">Mon parcours</h2>
             <div className="experience_section">
-                <p className="experience_details">Après 15 ans passés dans le commerce et la distribution, à manager et accompagner des équipes dans la recherche de la performance et de la satisfaction client, j’ai choisi de donner un nouvel élan à ma carrière et de relever un nouveau défi : celui de devenir Développeuse Web !</p>
-                <p className="experience_details">Je suis curieuse et m’intéresse à beaucoup de choses, ce qui m’a permis de travailler dans plusieurs univers très différents et de m’y adapter facilement et rapidement à chaque fois. J’aime échanger et travailler en équipe sur un projet commun, car je fais partie de ceux qui pensent que « seul on va plus vite, ensemble on va plus loin ».</p>
-                <p className="experience_details">Aujourd'hui, je suis à l'écoute du marché. Si vous pensez pouvoir m'offrir l'opportunité qui me fera continuer de progresser, discutons-en ! Je suis prête à relever les défis que l'on voudra bien me lancer, et promis, je donnerai le meilleur de moi-même !</p>
+                <p className="experience_details">Après 15 ans passés dans le commerce et la distribution, à manager et accompagner des équipes dans la recherche de la performance et de la satisfaction client, j’ai choisi de donner un nouvel élan à ma carrière et de m'orienter vers le monde de l'IT.</p>
+                <p className="experience_details"><span>Mais pourquoi ???</span><br/>
+                Utilisatrice d'outils de gestion et de sites web / applications mobiles, j'ai eu envie de passer "de l'autre côté". Le but étant de concevoir des solutions digitales adaptées aux besoins, de proposer aux utilisateurs une expérience différenciante, agréable, efficace... bref leur fournir un produit au top !</p>
+                <p className="experience_details">J'ai choisi d'y aller par étapes et je me suis dans un premier temps formée au métier de <span>Développeuse Web. </span>Oui, parce que j'aime bien comprendre les choses. En développant des sites web, j'ai compris les contraintes de ce milieu, mais aussi les leviers disponibles pour fournir une UX digne de ce nom aux utilisateurs.</p>
+                <p className="experience_details">Aujourd'hui, je suis prête à passer à l'étape supérieure : devenir <span>Product Owner</span>. Ma vision, « Seul on va plus vite, ensemble on va plus loin », colle parfaitement à ce métier, et c'est pour ça que je suis certaine de pouvoir m'éclater dans cette voie !<br/>
+                Alors si vous pensez pouvoir m'offrir l'opportunité qui me fera continuer de progresser, discutons-en ! Je suis prête à relever les défis que vous voudrez bien me lancer, et promis, je donnerai le meilleur de moi-même ! Oui, je suis comme ça !</p>
             </div>
             <div className="experience_section">
                 <p className="experience_job">Développeuse Web Front-end Angular</p>
-                <p className="experience_duration">Depuis Septembre 2021</p>
+                <p className="experience_job">Assistance à la Maîtrise d'Ouvrage</p>
+                <p className="experience_duration">Depuis Juillet 2022</p>
+                <p className="experience_enterprise">Apside</p>
+                <p className="experience_details">
+                    <li className="experience_item">Développement de sites web / applications mobiles : Angular - Ionic - RxJS</li>
+                    <li className="experience_item">Assistance à la Maîtrise d'Ouvrage : recueil et compréhension des besoins, rédaction des spécifications fonctionnelles, écriture et priorisation des US</li>
+                </p>
+            </div>
+            <div className="experience_section">
+                <p className="experience_job">Développeuse Web Front-end Angular</p>
+                <p className="experience_duration">9 mois (2021 - 2022)</p>
                 <p className="experience_enterprise">Dev-id</p>
                 <p className="experience_details">
                     <li className="experience_item">Développement de sites web : Angular - Akita - RxJS</li>

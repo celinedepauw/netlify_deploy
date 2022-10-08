@@ -24,6 +24,10 @@ export const datasSoftSkills = [
         logo: "https://cdn-icons-png.flaticon.com/128/4388/4388232.png",
     },
     {
+        name: "Prise d'initiatives",
+        logo: "https://cdn-icons-png.flaticon.com/512/2463/2463977.png",
+    },
+    {
         name: "Management",
         logo: "https://cdn-icons-png.flaticon.com/128/6799/6799020.png",
     },

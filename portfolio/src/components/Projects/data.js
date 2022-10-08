@@ -2,7 +2,7 @@ export const datas = [
     {
         title: "Beautyfull",
         subtitle: "Angular & Material",
-        description: "Site web développé en mobile first pour gérer mes produits de beauté.", 
+        description: "Site web développé en mobile first pour gérer mes produits de beauté. Je voulais avoir à disposition rapidement la liste des produits que j'ai dans ma salle de bains, par catégorie, pour éviter les achats inutiles.", 
         image: "https://cdn-icons-png.flaticon.com/128/5220/5220410.png",
         date: "Février 2022",
     },
@@ -16,7 +16,7 @@ export const datas = [
     {
         title: "Homies",
         subtitle: "Kotlin - Android & Jetpack",
-        description: "Application Android développée pour mon mari qui travaille dans l'immobilier. Il souhaitait une application pour gérer les projets de ses clients.",
+        description: "Application Android développée pour mon mari qui travaille dans l'immobilier. Il souhaitait une application pour gérer les projets de ses clients. Je suis passée par la phase de recueil et compréhension de ses besoins avant de me lancer dans le développement de l'application.",
         image: "https://cdn-icons-png.flaticon.com/128/1454/1454158.png",
         date: "Décembre 2021",
     },

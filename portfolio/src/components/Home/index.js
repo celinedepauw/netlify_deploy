@@ -13,8 +13,8 @@ const Home = () => (
             <Introduction />
             <ExperienceSmall />
             <SkillsSmall />
-            <ProjectsSmall />
             <ResumeSmall />
+            <ProjectsSmall />
             <WhoIAmSmall />
         </div>
 );
